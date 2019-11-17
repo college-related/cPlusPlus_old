@@ -1,0 +1,21 @@
+
+
+    Static data member
+        --- The data member which hava static keyword will have
+            a single memory allocated in the whole program.
+
+            [
+                syntax:
+
+                class demo{
+                    static int num;
+                }
+
+                //prototyping the static variable
+                int demo: num=0;
+            ]
+            [example-3]
+
+            **features
+                - The memory for the variable is allocated only once.
+                - It carries the previous value with the next calling.

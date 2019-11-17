@@ -1,0 +1,13 @@
+
+
+    Polymorphism
+        --- Polymorphism means having many forms. 
+            Typically, polymorphism occurs when there 
+            is a hierarchy of classes and they are related by inheritance.
+
+            It can be used in c++ by the use of virtual function in
+            the base class.
+
+                [
+                    example no-4
+                ]

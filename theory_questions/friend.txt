@@ -1,0 +1,38 @@
+
+    Friend Function
+        --- A special type of function that can access any data 
+            member and member function of a class.
+
+                [
+                    syntax:
+
+                        class A{
+                            Friend return_type function_name();
+                        }
+                        return_type function_name(){
+                                // body code
+                        }
+                ] 
+                [example-2]
+
+    **benifits of Friend function
+        1. It acts as the bridge between two classes by operating on their private data’s.
+
+        2. It is able to access members without need of inheriting the class.
+
+        3. It can be used to increase the versatility of overloading operator.
+
+        4. It provides functions that need data which isn’t normally used by the class.
+
+        5. Allows sharing private class information by a non-member function.
+
+    **disadvantage of Friend function
+        1. It violates the law of data hiding by allowing access to private members of the class from outside the class.
+
+        2. Breach of data integrity.
+
+        3. Conceptually messy
+
+        4. Runtime polymorphism in the member cannot be done.
+
+        5. Size of memory occupied by objects will be maximum.
