@@ -1,1 +1,2 @@
-theory_questions/examples/*.exe
+*.exe
+cPlusPlus_old/*

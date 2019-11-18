@@ -11,12 +11,12 @@ class demo{
 			num2=0;
 		}
 //		parameterized constructor
-		demo(int a=0, int b=0){
+		demo(int a, int b){
 			num1=a;
 			num2=b;
 		}
 //		parameterized constructor used again so constructor can be overloaded too
-		demo(float x=0){
+		demo(int x){
 			num1=x;
 			num2=0;
 		}

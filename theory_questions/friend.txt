@@ -36,3 +36,27 @@
         4. Runtime polymorphism in the member cannot be done.
 
         5. Size of memory occupied by objects will be maximum.
+
+
+
+    Friend class
+        --- A friend class is class that is decleared friend 
+            of another class and can access the private members 
+            of the class too.
+
+            [
+                syntax:
+                    class A{
+                        public:
+                            friend class B;
+                    }
+            ]
+            [example-5]
+
+        --- Points to remember
+                1, If class B is a friend function of class A then class A
+                   doesn't automatically becomes the friend class of class B.
+                2, A friend function doesnot automatically becomes friend 
+                    function of the derived class.
+                3, Use of friend function and friend class must be limited
+                    as it violates the encapusaltion and that is not good.
