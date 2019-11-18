@@ -66,9 +66,13 @@ constructor
                                     A ob1 = ob; // passing ob as parameter
                                 }
                         ]
-                        [example-1]
+                        [ Example-1 ]
 
     Q, can constructor be overloaded?
         -- Yes a constructor can be overloaded by the same concept as the
            function overloading. We can use parameterized constructors with
            different number of parameter or different type of parameter.
+
+
+    Destrutor
+        --- 

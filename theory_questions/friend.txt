@@ -7,9 +7,9 @@
                     syntax:
 
                         class A{
-                            Friend return_type function_name();
+                            Friend return_type function_name(className &object);
                         }
-                        return_type function_name(){
+                        return_type function_name(className &object){
                                 // body code
                         }
                 ] 
