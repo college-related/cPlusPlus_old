@@ -1,2 +1,3 @@
 *.exe
-cPlusPlus_old/*
+cPlusPlus_old/theory_questions/examples/*
+cPlusPlus_old/code_questions/*

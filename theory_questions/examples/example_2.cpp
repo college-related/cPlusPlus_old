@@ -3,23 +3,27 @@ using namespace std;
 
 class speech{
 	int num;
+	
+	public:
 		void getNum(int n){
 			num = n;
 		}
 		void sayNum(){
 			cout << "Number is " << num << endl;
 		}
-	
-	friend void say(int num);
+//	declearing the say function as the friend function
+	friend void say(speech &obj, int num);
 };
 
-void say(int num){
-	int N = num;
-	
-	getNum(N);
-	sayNum();
+// It takes a obj of the class it is decleared as friend function to
+// access the data members and functions of the class
+void say(speech &obj, int num){
+	obj.getNum(num);
+	obj.sayNum();
 }
 
 main(){
-	say(5);
+	speech ob;
+	
+	say(ob, 3);
 }

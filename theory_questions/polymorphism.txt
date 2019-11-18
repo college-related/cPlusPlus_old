@@ -6,8 +6,35 @@
             is a hierarchy of classes and they are related by inheritance.
 
             It can be used in c++ by the use of virtual function in
-            the base class.
+            the base class. (i.e function overriding)
 
                 [
                     example no-4
+                ]
+
+
+    Two types of polymorphism in c++
+        1, Compile-time
+            {   The polymorphism achived during the compile time of the program
+                is known as compile-time polymorphism.
+                It is also known as static or early binding.
+            
+                It can be achived through function overloading and operator overloading 
+            }
+
+                [ 
+                     Example - 6 (function overloading)
+                     Example - 7 (operator overloading)
+                ]
+
+        2, Run-time
+            {   The polymorphism achived during the run time of the program i.e when the
+                program is running is known as run-time polymorphism.
+                It is also known as dynamic or late binding.
+
+                It can be achived through function overriding
+            }
+
+                [
+                    Example - 4
                 ]
