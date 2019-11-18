@@ -75,4 +75,15 @@ constructor
 
 
     Destrutor
-        --- 
+        --- C++ destructor is a special member function that is executed 
+            automatically when an object is destroyed that has been created by the constructor.
+
+            [
+                syntax:
+                    ~class_name(){};
+            ]
+
+            Unlike constructor it neither takes any arguments nor it returns any values.
+            So it can't be overloaded. Only one destructor can be implemented in a class.
+
+            [ Example - 1.1 ]
